@@ -1,6 +1,7 @@
 # FitnessCoach
 
 ![Angular Logo](/src/assets/images/angular-logo.png)
+![AngularMaterial Logo](/src/assets/images/angular-material-extensions-logo.png)
 
 * Angular 6
 * * https://angular.io/
