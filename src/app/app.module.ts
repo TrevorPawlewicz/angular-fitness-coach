@@ -1,6 +1,7 @@
 import { BrowserModule }            from '@angular/platform-browser';
 import { NgModule }                 from '@angular/core';
 import { BrowserAnimationsModule }  from '@angular/platform-browser/animations';
+import { FlexLayoutModule }         from '@angular/flex-layout';
 import { MaterialModule }           from './material.module'; // our imports module for Material
 import { AppComponent }             from './app.component';
 import { SignupComponent }          from './auth/signup/signup.component';
@@ -27,6 +28,7 @@ import { AppRoutingModule }         from './app-routing.module'; // my routes
     imports: [
         BrowserModule,
         BrowserAnimationsModule,
+        FlexLayoutModule,
         AppRoutingModule, // my routes
         MaterialModule // trevs module for Material Design imports
     ],

@@ -6,3 +6,4 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 * Angular CLI: A command line interface for Angular
 * Angular Material: Material Design components for Angular
 * Angular Flex-layout: Provides HTML UI layout for Angular applications; using Flexbox and a Responsive API
+* * https://github.com/angular/flex-layout
