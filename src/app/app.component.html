@@ -1,3 +1,25 @@
-<!-- the router-outlet is going to go to the app.routing.module.ts -->
+<mat-sidenav-container>
+    <mat-sidenav #sidenav role="navigation">
+        <p> ------>SIDENAV!-------- </p>
+    </mat-sidenav>
 
-<router-outlet></router-outlet>
+    <mat-sidenav-content>
+        <mat-toolbar color="primary">
+            <div class="">
+                <button (click)="sidenav.toggle()">Toggle Sidenav</button>
+            </div>
+            <div class="">
+                Logo
+            </div>
+            <div>
+                <a routerLink="/signup">Signup</a>
+                <a routerLink="/login">Login</a>
+                <a routerLink="/training">Training</a>
+            </div>
+        </mat-toolbar>
+        <main>
+            <!-- app.routing.module.ts -->
+            <router-outlet></router-outlet>
+        </main>
+    </mat-sidenav-content>
+</mat-sidenav-container>
