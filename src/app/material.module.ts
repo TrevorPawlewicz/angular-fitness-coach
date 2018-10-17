@@ -1,26 +1,33 @@
-import { NgModule }                 from '@angular/core';
-import { MatButtonModule,
-         MatCheckboxModule }        from '@angular/material';
-import { MatFormFieldModule }       from '@angular/material/form-field';
-import { MatInputModule }           from '@angular/material/input';
-import { BrowserAnimationsModule }  from '@angular/platform-browser/animations';
-import { FlexLayoutModule }         from '@angular/flex-layout';
+import { NgModule } from '@angular/core';
+import {
+    MatButtonModule,
+    MatIconModule,
+    MatFormFieldModule,
+    MatInputModule,
+    MatDatepickerModule,
+    MatNativeDateModule,
+    MatCheckboxModule
+} from '@angular/material';
 //-----------------------------------------------------------------------------
 
 @NgModule({
-    imports: [ MatButtonModule,
-               MatCheckboxModule,
-               MatFormFieldModule,
-               MatInputModule,
-               BrowserAnimationsModule,
-               FlexLayoutModule
-             ],
-    exports: [ MatButtonModule,
-               MatCheckboxModule,
-               MatFormFieldModule,
-               MatInputModule,
-               BrowserAnimationsModule,
-               FlexLayoutModule
-             ]
+    imports: [
+        MatButtonModule,
+        MatIconModule,
+        MatFormFieldModule,
+        MatInputModule,
+        MatDatepickerModule,
+        MatNativeDateModule,
+        MatCheckboxModule
+    ],
+    exports: [
+        MatButtonModule,
+        MatIconModule,
+        MatFormFieldModule,
+        MatInputModule,
+        MatDatepickerModule,
+        MatNativeDateModule,
+        MatCheckboxModule
+    ]
 })
 export class MaterialModule {}
